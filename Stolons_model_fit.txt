@@ -1,0 +1,19 @@
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   0.9248     0.1707   5.417 6.06e-08 ***
+Temp2        -0.2667     0.2055  -1.298 0.194294    
+Temp3        -0.6877     0.2199  -3.128 0.001759 ** 
+Sal2         -0.8156     0.2164  -3.768 0.000164 ***
+Sal3         -1.3717     0.2280  -6.015 1.80e-09 ***
+Temp2:Sal2    0.8242     0.2966   2.778 0.005463 ** 
+Temp3:Sal2    1.0972     0.3114   3.524 0.000425 ***
+Temp2:Sal3    1.2302     0.3075   4.000 6.34e-05 ***
+Temp3:Sal3    1.4884     0.3218   4.626 3.73e-06 ***
+
+Approximate significance of smooth terms:
+                  edf  Ref.df  Chi.sq  p-value    
+s(Age)          8.063   9.399 170.957  < 2e-16 ***
+ti(Age):Temp23  1.000   1.000  17.092 3.56e-05 ***
+ti(Age):Temp28  1.000   1.000   1.054  0.30459    
+s(colony)      18.501  27.000  76.096 2.96e-14 ***
+ti(colony,Age) 19.883 139.000 222.645  0.00908 ** 

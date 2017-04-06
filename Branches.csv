@@ -1,0 +1,8 @@
+"Test","Chisq","Df","p.value"
+"Age*","85.53",10,"< 0.0001"
+"Temperature*","38.07",14,"< 0.0001"
+"Salinity*","18.57",10,"0.0001"
+"Age:Temperature","25.59",8,"< 0.0001"
+"Age:Salinity","6.34",4,"0.0130"
+"Temperature:Salinity","13.11",4,"< 0.0001"
+"Random slope","9.67",2,"0.0001"
